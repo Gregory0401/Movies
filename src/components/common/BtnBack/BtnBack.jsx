@@ -8,7 +8,7 @@ function BtnBack() {
     const navigate= useNavigate();
     const OnClickHandle =() =>{
        navigate({
-           pathname:location.state.location?.pathname || '/',
+           pathname:location.state.location?.pathname || '/home',
            ...(location.state.query && {search:`query=${location.state.query}`})
        })
     }

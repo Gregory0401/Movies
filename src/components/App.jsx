@@ -20,9 +20,9 @@ export const App = () => {
         <div className={s.container}>
           <Header />
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route exact path='/movies' element={<Movies />} />
-            <Route exact path='/movies/:movieId' element={<MovieDetails />}>
+            <Route path='/home' element={<Home />} />
+            <Route exact path='/home/movies' element={<Movies />} />
+            <Route exact path='/home/movies/:movieId' element={<MovieDetails />}>
               <Route path={'reviews'} element={<Reviews />} />
               <Route path={'cast'} element={<Cast />} />
             </Route>
