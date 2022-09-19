@@ -43,7 +43,7 @@ pull requeście. W tym celu należy w pliku `package.json` zredagować pole
 wysłać zmiany do GitHub.
 
 ```json
-"homepage": "https://your_username.github.io/your_repo_name/"
+{"homepage": "https://your_username.github.io/your_repo_name/"}
 ```
 
 Następnie należy przejść do ustawień repozytorium GitHub (`Settings` > `Pages`)

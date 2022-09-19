@@ -43,7 +43,7 @@
 `your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
 
 ```json
-"homepage": "https://your_username.github.io/your_repo_name/"
+{"homepage": "https://your_username.github.io/your_repo_name/"}
 ```
 
 Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и

@@ -1,0 +1,27 @@
+.container {
+  --font-size: 20px;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.link {
+  display: block;
+  padding: 15px 0;
+  font-size: var(--font-size);
+  text-decoration: none;
+  color: inherit;
+}
+
+.link[aria-current="page"] {
+  color: var(--cl-active);
+}
+
+.stat {
+  align-self: center;
+  font-size: var(--font-size);
+}
