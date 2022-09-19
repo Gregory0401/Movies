@@ -19,6 +19,7 @@ export const useSearch = ({ search }) => {
       setError(`Change your search "${search}" by new, please.`)
       return;
     }
+    setMovies([]);
     searchRef.current = search
     setLoading(true);
     searchMovie(search, page)
@@ -43,5 +44,5 @@ export const useSearch = ({ search }) => {
     return () => {};
   }, [search, page, setTotalResults]);
 
-  return {error, loading, page, setPage, movies, totalPages, totalResults}
+  return {error, loading, page, setPage, movies, totalPages, totalResults, setMovies}
 }

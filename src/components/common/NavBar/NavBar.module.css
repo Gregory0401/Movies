@@ -2,8 +2,11 @@
   --font-size: 20px;
   top: 0;
   left: 0;
+  background-color: rgb(105, 99, 99);
 }
-
+.stat{
+  color: black;
+}
 .nav {
   display: flex;
   gap: 25px;
@@ -13,12 +16,12 @@
   display: block;
   padding: 15px 0;
   font-size: var(--font-size);
-  text-decoration: none;
-  color: inherit;
+  text-decoration:solid;
+  color: rgb(35, 33, 33)
 }
 
 .link[aria-current="page"] {
-  color: var(--cl-active);
+  color: white;
 }
 
 .stat {

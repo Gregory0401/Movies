@@ -2,11 +2,15 @@ import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import s from './Searchbar.module.css';
 import { moviesSearchValueCtx } from '../../../context/MoviesSearchValue/moviesSearchValueCtx';
+import { useLocation } from 'react-router-dom';
 
 function Searchbar() {
   const {setSearch} = useContext(moviesSearchValueCtx);
+
+  const location = useLocation();
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    location.search = '';
     setSearch(e.target.elements['search'].value.toLowerCase().trim());
   };
   useEffect(() => (() => setSearch('')), [setSearch]);
@@ -24,7 +28,7 @@ function Searchbar() {
           name='search'
           autoComplete='off'
           autoFocus
-          placeholder='Search images and photos'
+          placeholder='Enter movie name'
         />
       </form>
     </header>

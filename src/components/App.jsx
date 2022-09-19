@@ -1,4 +1,3 @@
-// import { ReactQueryDevtools } from 'react-query/devtools';
 import { Route, Routes } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import s from './App.module.css';
@@ -22,8 +21,8 @@ export const App = () => {
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/movies' element={<Movies />} />
-            <Route path='/movies/:movieId' element={<MovieDetails />}>
+            <Route exact path='/movies' element={<Movies />} />
+            <Route exact path='/movies/:movieId' element={<MovieDetails />}>
               <Route path={'reviews'} element={<Reviews />} />
               <Route path={'cast'} element={<Cast />} />
             </Route>
@@ -31,7 +30,6 @@ export const App = () => {
           </Routes>
         </div>
       </MoviesSearchValueCtx>
-      {/*<ReactQueryDevtools initialIsOpen={false} />*/}
     </QueryClientProvider>
   );
 };
