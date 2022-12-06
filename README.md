@@ -7,14 +7,14 @@
 <li>cast</li>
 <li>movie reviews</li>
 <li>trailer</li>
-<img scr="./readme/cast.png" width=400 height=240>
-<img scr="./readme/rewiev.png" width=400 height=240>
-<img scr="./readme/trailer.png" width=400 height=240>
+<img src="./readme/cast.png" width=400 height=240>
+<img src="./readme/rewiev.png" width=400 height=240>
+<img src="./readme/trailer.png" width=400 height=240>
 <p></p>
 <p align="left">The application has a function to search for movies by title.</p>
-<img scr="./readme/search.png" width=400 height=240>
+<img src="./readme/search.png" width=400 height=240>
 <p></p>
 <p align="left">The application is adapted for mobile devices</p>
-<img scr="./readme/adaptiv.png" width=240 height=400>
+<img src="./readme/adaptiv.png" width=240 height=400>
 
 <h2 align="left">The technologies were used in the development of this application: HTML/Styled Components CSS/JavaScript/Redux</h2>
