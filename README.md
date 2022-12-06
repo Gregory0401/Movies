@@ -1,7 +1,7 @@
 <h1 align="center">Application for finding new movies</h1>
 
 <p align="left">This application shows the latest movie news as well as detailed information about the movie</p>
-<img scr="./readme/home.png" width=400 height=240>
+<img src="./readme/home.png" width=400 height=240>
 <p></p>
 <ul align="left" display="flex">When you click on a movie, you can see detailed information:</ul>
 <li>cast</li>
