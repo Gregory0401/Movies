@@ -1,3 +1,5 @@
+<p align="left">Individual project</p>
+
 <h1 align="center">Application for finding new movies</h1>
 
 <p align="left">This application shows the latest movie news as well as detailed information about the movie</p>
