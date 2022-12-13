@@ -19,4 +19,4 @@
 <p align="left">The application is adapted for mobile devices</p>
 <img src="./readme/adaptiv.png" width=240 height=400>
 
-<h2 align="left">The technologies were used in the development of this application: HTML/Styled Components CSS/JavaScript/Redux</h2>
+<h2 align="left">The technologies were used in the development of this application: HTML/Styled Components CSS/JavaScript/React</h2>
